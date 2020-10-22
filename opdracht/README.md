@@ -12,19 +12,14 @@ Lees de instructies goed door.
 1. Maak vlag 1 t/m 9
 2. 10 = extra
 
-### OPDRACHT 2 - Mondriaan
-
-Maak de opdracht Mondriaan.
-
 Gebruik __tenminste__ de volgende technieken:
 
-### OPDRACHT 3 - Website
+### OPDRACHT 2 - Website
 
 Maak een website waarin je een index.html voorziet van een navigatie menu
 
 - Het menu verwijst:
   - naar de pagina met alle vlaggen.
-  - Naar de pagina met de Mondriaan
 
 Op index.html komen de volgende zaken te staan
 
