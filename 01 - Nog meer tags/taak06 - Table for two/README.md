@@ -6,10 +6,10 @@
 
 ### Introductie
 
-Je zult ook het volgende voorbeeld herkennen of gebruikt hebben. Of het nou in Word is geweest of excel. Tabellen heb je eerder gebruikt of gezien.
-Die ga je in deze taak zelf maken met de `<table>` tag.
+Je zult ook het volgende voorbeeld herkennen of gebruikt hebben. Of het nou in Word is geweest of Excel. Tabellen heb je eerder gebruikt of gezien.
+Die ga je in deze taak zelf maken met de `<table>`-tag.
 
-Een table heeft een openings en sluit tag. Daarnaast heeft een table een head `<thead>`, een body `<tbody>`.
+Een table heeft een openings- en sluit-tag. Daarnaast heeft een table een head `<thead>`, een body `<tbody>`.
 Ook heeft een table rijen `<tr>` en cellen `<td>`.
 
 Dat ziet er dan zo uit:
