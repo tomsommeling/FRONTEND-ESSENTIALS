@@ -12,21 +12,14 @@ Lees de instructies goed door.
 1. Maak vlag 1 t/m 9
 2. 10 = extra
 
-### OPDRACHT 2 - Mondriaan
-
-Maak de opdracht Mondriaan.
-
-Gebruik __tenminste__ de volgende technieken:
-
-### OPDRACHT 3 - Website
+### OPDRACHT 2 - Website
 
 Maak een website waarin je een index.html voorziet van een navigatie menu
 
 - Het menu verwijst:
-  - naar de pagina met alle vlaggen.
-  - Naar de pagina met de Mondriaan
+  - naar alle vlaggen.
 
-Op index.html komen de volgende zaken te staan
+Op index.html komen tenminste de volgende zaken te staan
 
 - Je maakt een object `bezoeker` met de volgende properties
   - voornaam
@@ -43,6 +36,9 @@ Op index.html komen de volgende zaken te staan
 - Als de gebruiker (bezoeker) 18 jaar dan wordt de achtergrond kleur van index.html een goud-achtige kleur
 - Als de gebruiker (bezoeker) 19 jaar dan wordt de achtergrond kleur van index.html een groen-achtige kleur
 - Als de gebruiker (bezoeker) niks invuld dan wordt de achtergrond kleur van index.html een kleur naar keuze, als die maar anders is dan hierboven.
+
+- De tabel bevat data over jouw code skillset
+- Stijl de website met de geleerde technieken
 
 ### Gebruik de volgende technieken
 
