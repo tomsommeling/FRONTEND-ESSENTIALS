@@ -26,7 +26,7 @@ Elke website maakt gebruik van styling, en dus van CSS. Tot dusver heb je geleer
 </html>
 ```
 
-Dit noemen we block-styling. De CSS staat tussen `<style>`-tags. Maar omdat grote projecten nogal complex kunnen worden, stoppen we elk soort code: HTML, CSS of Javascript in een eigen bestand:
+Dit noemen we block-styling. De CSS staat tussen `<style>`-tags. Maar omdat grote projecten nogal complex kunnen worden, stoppen we elk soort code in een eigen bestand: HTML, CSS of Javascript.
 
 - HTML:        index.html
 - CSS:         style.css

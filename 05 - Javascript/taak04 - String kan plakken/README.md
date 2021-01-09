@@ -2,7 +2,7 @@
 
 ## Javascript
 
-## taak04 - String kan plakken
+## taak04 - Strings plakken
 
 ### Introductie
 
@@ -59,19 +59,20 @@ let winkel = "slager";
 let straatnaam = 'Javastraat';
 
 let volledigeZin = "Ik ga eerst naar de " + winkel + "op de " + straatnaam;
+console.log(volledigeZin);
 ```
 
 ![Winkel](images/winkelen.png)
 
 ### Opdracht
 
-1. Maak een index.html met de gebruikelijke tags en daarbij ook een script tag. (je kunt de index.html van taak01 nemen ;)
+1. Maak een index.html met de gebruikelijke tags en daarbij ook een scripttag. (je kunt de index.html van taak01 nemen ;)
 2. Declareer de volgende variabelen en geef ze een waarde: `mijnVoornaam`, `mijnAchternaam`, `mijnLeeftijd`.
 3. Schrijf de volgende zin in de console:
     > Mijn naam is `<voornaam>` `<achternaam>` en mijn leeftijd is `<leeftijd>` jaar
 4. Is de variabele mijnLeeftijd ook van het datatype String?
   
-Uiteraard wordt er verwacht dat je de voornaam, achternaam en leeftijd in deze zin vervangen voor waardes die je bij 1 hebt gedeclareerd.
+Uiteraard wordt er verwacht dat je de voornaam, achternaam en leeftijd in deze zin vervangt door waardes die je bij punt 1 hebt gedeclareerd.
 
 #### Extra
 

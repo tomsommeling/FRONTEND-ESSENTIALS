@@ -32,7 +32,7 @@ Met bovenstaande code krijg je het voorbeeld dat in deze tekst bovenaan staat.
 
 ### OPDRACHT
 
-1. Maak een index.html bestand in deze map
+1. Maak een index.html-bestand in deze map
 2. Codeer de standaard tags in deze pagina (weet je ze even niet kijk dan bij FRONTEND-BASIC => 03-Basis HTML => taak 02)
 3. Maak een unordered list van de volgende items: bananen, sla, melk, pasta, cola en tandpasta, peren
 4. Maak gebruik van `<ul>` en `<li>` voor de lijst.

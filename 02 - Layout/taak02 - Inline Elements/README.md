@@ -6,10 +6,10 @@
 
 ### Introductie
 
-Inline elementen staan _in de lijn_ dit betekent dat ze niet een nieuwe regel beginnen en dus onderdeel uitmaken van dezelfde lijn als de parent-element
+Inline elementen staan _in de lijn_ dit betekent dat ze niet op een nieuwe regel beginnen en dus onderdeel uitmaken van dezelfde lijn als het parent-element
 
 ```html
-<div>De volgende span is een <span id="opvallen">inline element.</span> De achtergrond kleur is ingekleurd om zo aan te geven dat dit element inline met de div is gepositioneerd.</div>
+<div>De volgende span is een <span id="opvallen">inline element.</span> De achtergrondkleur is ingekleurd om zo aan te geven dat dit element inline met de div is gepositioneerd.</div>
 ```
 
 ```css

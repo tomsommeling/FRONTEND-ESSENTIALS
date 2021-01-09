@@ -6,14 +6,14 @@
 
 ### Introductie
 
-Je kunt met de CSS property `position` elemente op een bepaalde, specifieke plek neerzetten op een webpagina. Hier staan de belangrijkste waardes:
+Je kunt met de CSS property `position` elementen op een bepaalde, specifieke plek neerzetten op een webpagina. Hier staan de belangrijkste waardes:
 
 - static
 - fixed
 - relative
 - absolute
 
-Je kunt ze op de volgende wijzes gebruiken:
+Je kunt ze op de volgende manieren gebruiken in je css-code:
 
 #### Static
 
@@ -25,7 +25,7 @@ Je kunt ze op de volgende wijzes gebruiken:
 
 ```
 
-De standaard property voor elk element is static. Als je geen position aangeeft dan heeft een element automatisch static. Dus deze hoef je niet in te stellen. Het element wordt in de volgorde neergezet van de [flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) van de site. Elke element wordt op de website getoond in de vorm van wie het eerste komt, wordt als eerste getoond:
+De standaard (default) property voor elk element is static. Als je geen position aangeeft, heeft een element automatisch een static position. Dus deze hoef je niet in te stellen. Het element wordt in de volgorde neergezet van de [flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) van de site. Elke element wordt op de website getoond in de volgorde zoals in de code vermeld:
 
 ```html
 <div #id="een"></div> <!-- Deze div wordt als eerste op het scherm getoond-->
@@ -33,13 +33,13 @@ De standaard property voor elk element is static. Als je geen position aangeeft 
 <div #id="drie"></div> <!-- Deze div wordt als laatste op het scherm getoond-->
 ```
 
-In alle voorbeelden in deze taak kun je gebruik maken van `index.html`. Hierin zie je dat de `<div>` elementen gewoon netjes onder elkaar geplaatst worden. Ja sommige elementen (child) zitten in een andere element (parent). Dit werkt gewoon zoals het hoort.
+In alle voorbeelden in deze taak kun je gebruik maken van `index.html`. Hierin zie je dat de `<div>`-elementen gewoon netjes onder elkaar geplaatst worden, maar sommige elementen (child) zitten in een ander element (parent). Dit werkt gewoon zoals het hoort.
 
 ![static](images/static.png)
 
 #### Relative
 
-Met `relative` haal je het document gedeeltelijk uit de __flow__. Het is niet meer _static_. Je kunt er nu posities mee veranderen. Als een element de display property `position: relative` heeft dan kun je met `top`, `right`, `bottom`, `left` de positie van een element veranderen. __dit kan niet met static elements__
+Met de `relative` postion haal je het document gedeeltelijk uit de __flow__. Het is niet meer _static_. Je kunt er nu posities mee veranderen. Als een element de display property `position: relative` heeft dan kun je met `top`, `right`, `bottom`, `left` de positie van een element veranderen. __dit kan niet met static elements__
 
 Kijk eens naar onderstaand voorbeeld. Ik heb de tweede child-div (de rode) de volgende CSS code gegeven:
 
@@ -59,7 +59,7 @@ Probeer het eens zelf met de overige child elementen.
 
 #### Absolute
 
-Met position `absolute` wordt het element in zijn geheel uit de flow van de pagina weggehaald. Het is alsof het niet meer bestaat, althans dat denken de overige elementen. Die 'zien' het element niet meer. Dus wie het eerste komt die mag als eerste op het scherm, dat gaat niet helemaal meer op.
+Met position `absolute` wordt het element in zijn geheel uit de flow van de pagina weggehaald. Het is alsof het niet meer bestaat, althans dat denken de overige elementen. Die 'zien' het element niet meer. Dus het principe: wie het eerste komt, mag als eerste op het scherm, gaat niet helemaal meer op.
 
 ```css
  #child-1{
@@ -115,7 +115,7 @@ Wat gebeurt er dan?
 
 ![Fixed](images/fixed.png)
 
-Oke. Cool. Dat was fixed. Je moet dus wel gaan aangeven waar het element gefixed is.
+Oké. Cool. Dat was fixed. Je moet dus wel gaan aangeven waar het element gefixed is.
 
 ### Opdracht
 

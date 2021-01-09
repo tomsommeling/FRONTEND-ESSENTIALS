@@ -8,19 +8,19 @@
 
 Je bent al heel ver gekomen. Je weet nu wat `HTML` is en je kunt dus structuur aanbrengen op een website. Je weet dat je diezelfde structuur kunt stijlen met `CSS`. En je weet dat je met `Javascript` kunt rekenen en variabelen kunt vullen. Maar hoe combineer je dit alles tot `FRONTEND DEVELOPMENT`
 
-Stel je hebt de film website die je bij DevOps hebt aangepast.
+Denk terug aan de filmwebsite die je bij DevOps hebt aangepast.
 
-Die gehele film HTML pagina is van het datatype Object. Elke HTML-document is een Document Object Model (DOM).
+Die gehele film-HTML-pagina is van het datatype Object. Elk HTML-document is een Document Object Model (DOM).
 
-Zodra een HTML document is ingeladen in de browser dan wordt het een Document Object. Dit document heeft net als het andere Object properties (eigenschappen)
+Zodra een HTML-document is ingeladen in de browser dan wordt het een Document Object. Dit document heeft net als het andere Object-properties (eigenschappen)
 
-Omdat dit zo is kunnen we dit in Javascript bekijken en veranderen.
+Omdat dit zo is, kunnen we dit in Javascript bekijken en veranderen.
 
 > De code tijdens deze uitleg kun je __zelf uit testen__ in `script.js`
 > Open dus `index.html` in je browser.
 > Open `script.js` om aanpassingen te doen in VS Code.
 
-Als je het object wilt bekijken dan kun je dat in de console doen:
+Als je het object wilt bekijken, dan kun je dat in de console doen:
 
 ```js
 console.log(document);
@@ -29,7 +29,7 @@ console.log(document);
 Als je Firefox gebruikt: druk nog even op het pijltje zodat je alle eigenschappen kunt zien
 ![DOM](images/dommetpijl.png)
 
-Dat zijn veel eigenschappen hè.
+Dat zijn veel eigenschappen, hè.
 
 Gebruik je Google Chrome dan zie je dit:
 
@@ -37,7 +37,7 @@ Gebruik je Google Chrome dan zie je dit:
 
 Alle HTML-tags!
 
-We kunnen ook nog andere dingen bekijken. Bijvoorbeeld de titel van het html document uitlezen:
+We kunnen ook nog andere dingen bekijken door bijvoorbeeld de titel van het html-document uit te lezen:
 
 ```js
 console.log(document.title);
@@ -55,7 +55,7 @@ document.title = "Dit zijn drie films";
 ![Drie films](images/driefilms1.png)
 ![Drie films](images/driefilms2.png)
 
-Maar we kunnen nog verder het document bekijken:
+We kunnen het document nog verder bekijken:
 
 ```js
 console.log(document.body.innerHTML);
@@ -63,17 +63,17 @@ console.log(document.body.innerHTML);
 
 ![Body](images/body.png)
 
-Alle HTML tags die in de `<body>`-tag staan
+Alle HTML-tags die in de `<body>`-tag staan
 
-Maar we kunnen ook dingen veranderen:
+We kunnen ook dingen veranderen:
 
 ```js
 document.body.innerHTML = "<h1>alles is gewist</h1>";
 ```
 
-Alles is gewist??!! Ja je hebt de HTML van de body verwijderd.
+Alles is gewist??!! Ja je hebt de HTML uit de body verwijderd.
 
-Je kunt ook specifieke elementen beinvloeden, en zeker als ze een `id` hebben. Net als bij CSS.
+Je kunt ook specifieke elementen beïnvloeden, en zeker als ze een `id` hebben. Net als bij CSS.
 
 Je kunt bijvoorbeeld een afbeelding dynamisch aanpassen met Javascript.
 
@@ -85,9 +85,9 @@ And the poster is gone...!
 
 Check de website eens. En haal het commentaar weg op regel 6 van `script.js`. Wat gebeurt er?
 
-Niet heel spannend he. Maar je hebt wel de DOM aangepast met Javascript. Welkom bij Frontend Development!
+Niet heel spannend, hè? Maar je hebt wel de DOM aangepast met Javascript. Welkom bij Frontend Development!
 
-Ok, Nog eentje. Haal het commentaar op regel 35 weg van `index.html`. En klik eens op een van de posters. Nu wordt al iets interessanter hè.
+Ok, Nog eentje. Haal het commentaar op regel 35 weg van `index.html`. En klik eens op een van de posters. Nu wordt al iets interessanter, hè.
 
 ### Opdracht
 

@@ -6,7 +6,7 @@
 
 ### Introductie
 
-Het is ook mogelijk om een lijst __in__ een lijst te maken. Bijvoorbeeld categorieen aan te geven in je lijst. Dan moet je dus weer meer gaan __nesten__
+Het is ook mogelijk om een lijst __in__ een lijst te maken. Bijvoorbeeld categorieën aan te geven in je lijst. Dan moet je dus weer meer gaan __nesten__
 
 ```html
     <body>

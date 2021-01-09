@@ -16,7 +16,7 @@ In de code-wereld bestaan allerlei soorten datatypes. Soorten data. Data-typen. 
 
 #### STRING
 
-Het datatype __String__ is een stukje tekst. Of een lege stuk tekst. Als de tekst (of lege tekst) tussen aanhalingstekens staat dan is het van het type String. Dus bijvoorbeeld zo:
+Het datatype __String__ is een stukje tekst. Of een leeg stuk tekst. Als de tekst (of lege tekst) tussen aanhalingstekens staat dan is het van het type String. Dus bijvoorbeeld zo:
 
 ```js
 let mijnVoornaam = "Bart"
@@ -26,11 +26,11 @@ let school = '';
 ```
 
 Je ziet dat __enkele__ en __dubbele__ aanhalingstekens mag gebruiken.
-_(je kunt ook accent graves gebruiken. Engles: backticks ` )_
+_(je kunt ook accent graves gebruiken. Engels: backticks ` )_
 
 #### Number
 
-Cijfer of cijfers dat is een __Number__ datatype. Voorbeelden van Number datatypen zijn:
+Voor een geheel cijfer of cijfers gebruik je een __Number__-datatype. Voor niet-gehele getallen gebruik je een __Float__-datatype. Voorbeelden van Number- eb Floatdatatypen zijn:
 
 ```js
 /* Integers zijn gehele getallen */
@@ -44,7 +44,7 @@ let leeftijd = 42.5;
 
 #### Boolean
 
-Een __Boolean__ datatype bestaat uit maar twee waarden: of
+Een __Boolean__ datatype bestaat uit maar twee waarden: 
 
 - Waar óf
 - niet Waar
@@ -79,7 +79,7 @@ De leeftijd was niet 'gevuld' en is dus niet gedefineerd.
 
 #### NULL
 
-NULL is een lege waarde maar niet undefined. Soms kan een variabele dus expres leeg gemaakt zijn. Dit is dus __niet__ een lege string of het getal 0. Dit is NULL.
+NULL is een lege waarde maar niet undefined. Soms kan een variabele dus expres leeggemaakt zijn. Dit is dus __niet__ een lege string of het getal 0. Dit is NULL.
 
 ```js
 let eenLegeVariabele = null;

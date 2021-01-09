@@ -23,7 +23,7 @@ Je ziet dat er drie gebieden zijn die je kunt beïnvloeden als developer:
 - border
 - padding
 
-Dat gaan we in de komende taken beinvloeden.
+Dat gaan we in de komende taken beïnvloeden.
 
 In onderstaand voorbeeld zie je deze woorden ook weer terugkomen.
 
@@ -39,8 +39,8 @@ Je ziet dat
 
 1. Ga naar [Bol.com](https://www.bol.com/nl/)
 2. Klik met je rechtermuisknop op de bovenste blauwe balk en kies in het menu `Inspecteren`
-3. In de devtools  op het `Elements` tabblad zoek je naar `<header class="wsp-header js_main_header">`. Klik deze aan
+3. In de devtools op het `Elements` tabblad zoek je naar `<header class="wsp-header js_main_header">`. Klik deze aan
 4. In de Styles box aan de rechterkant scroll je naar beneden totdat je het __BOXMODEL__ ziet.
 5. Verander eens de __TOP__ margin van de zoekbalk. Dit doe je door dubbel te klikken op het `-` teken van margin: ![Margin aanpassen](images/margin-aanpassen.png)
-6. Als het goed is dan zie je nu dan de blauwe balk naar beneden is gekomen. Je hebt de margin van dit element aangepast, vergroot. Er is ruimte aan de bovenkant ontstaan tussen de balk en de bovenkant.
+6. Als het goed is, zie je nu dan de blauwe balk naar beneden is gekomen. Je hebt de margin van dit element aangepast, vergroot. Er is ruimte aan de bovenkant ontstaan tussen de balk en de bovenkant.
 ![bol](images/bol.png)

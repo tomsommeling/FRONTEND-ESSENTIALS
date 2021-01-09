@@ -6,48 +6,48 @@
 
 ### Introductie
 
-Je hebt nu kennis gemaakt met verschillende datatypes zoals String en Number. Maar er is nog een heel mooi type en dat is `Object`. Object zul je vaak en veel gaan tegenkomen in de Javscript wereld. Deze taak geeft een eerste introductie in de wereld van objecten.
+Je hebt nu kennis gemaakt met verschillende datatypes zoals String en Number. Maar er is nog een heel mooi type en dat is `Object`. Object zul je vaak en veel gaan tegenkomen in de Javscriptwereld. Deze taak geeft een eerste introductie in de wereld van objecten.
 
 #### Object
 
 Ok. je weet nu dat je variabelen kunt maken:
 
 ```js
-let naam = "Peter";
-let achternaam= "Mensink";
-let leeftijd = 59;
+let naam = "Sanne";
+let achternaam= "Honselaar";
+let leeftijd = 31;
 ```
 
-Deze twee variabelen hebbben niks met elkaar te maken. En soms wil je dat ze wel met elkaar te maken hebben. Dat kan je regelen met een object datatype:
+Deze drie variabelen hebben staan voor Javascript los van elkaar, maar soms wil je dat ze wel met elkaar te maken hebben. Dat kan je regelen met een object-datatype:
 
 ```js
 let persoon = {}
 ```
 
-Het is een gewone variabele declaratie (aanmaken). Maar aan de rechterkant van het `=`-teken staan _accolades_ of in het Engels: __curly brackets__. Met deze code bestaat het object `persoon`. Maar persoon is nog leeg. Laten we persoon 'vullen'
+Het is een gewone variabeledeclaratie (aanmaken). Maar aan de rechterkant van het `=`-teken staan _accolades_ of in het Engels: __curly brackets__. Met deze code bestaat het object `persoon`. Maar persoon is nog leeg. Laten we persoon 'vullen'
 
 ```js
 let persoon = {
-   voornaam: "Peter",
-   achternaam: "Mensink",
-   leeftijd: 59
+   voornaam: "Sanne",
+   achternaam: "Honselaar",
+   leeftijd: 31
 }
 ```
 
-Bij dit bovenstaande voorbeeld zittende de variabelen in een andere variabele. De variabelen `voornaam`, `achternaam`, `leeftijd` in dit voorbeeld noemen we __properties__. Dit zijn eigenschappen van `persoon`.
+Bij dit bovenstaande voorbeeld zitten de variabelen in een andere variabele. De variabelen `voornaam`, `achternaam`, `leeftijd` in dit voorbeeld noemen we __properties__. Dit zijn eigenschappen van `persoon`.
 
 Achter een _property_ staat een dubbele punt `:` en daarachter staat de waarde van de property.
 
 ```js
-voornaam : "Peter"
+voornaam : "Sanne"
 ```
 
-Als je maar 1 property in je console.log wilt tonen dan doe je dat als volgt:
+Als je maar één property in je console.log wilt tonen dan doe je dat als volgt:
 
 `object.property`
 
 ```js
-console.log(persoon.voornaam);  // op het scherm komt 'Peter` te staan
+console.log(persoon.voornaam);  // op het scherm komt 'Sanne` te staan
 ```
 
 Je ziet dat je
@@ -56,10 +56,10 @@ Je ziet dat je
 2. dan een punt (`.`)
 3. dan de `property`: _voornaam_
 
-Stel nou eens dat in het voorbeeld hierboven de leeftijd van Peter veranderd. Dan is het natuurlijk overdreven om het hele Object opnieuw te maken. Je kunt net als bij een _normale_ variabele een `=`-teken gebruiken:
+Stel nou eens dat in het voorbeeld hierboven de leeftijd van Sanne verandert. Dan is het natuurlijk overdreven om het hele Object opnieuw te maken. Je kunt net als bij een _normale_ variabele een `=`-teken gebruiken:
 
 ```js
-persoon.leeftijd = 60;
+persoon.leeftijd = 32;
 ```
 
 ### Opdracht
@@ -74,7 +74,7 @@ persoon.leeftijd = 60;
    6. ikMagBrommerRijden
 3. Combineer de variabelen 1 t/m 6 in een object `student`. Met de waardes die voor jou gelden!
 4. Console.log het gehele object, wat zie je? `console.log(student);`
-5. Console.log alleen 1 property van object, wat zie je? `console.log(student.leeftijd);`
+5. Console.log alleen één property van object, wat zie je? `console.log(student.leeftijd);`
 
 ### Bronnen
 

@@ -6,7 +6,7 @@
 
 ### Introductie
 
-Je kunt elementen beinvloeden met CSS. Je kunt kleuren wijzigen maar je kunt ook bepalen of een element inline, block of onzichtbaar is. Dat kun je met het `display`-property met CSS.
+Je kunt elementen beïnvloeden met CSS. Je kunt kleuren wijzigen maar je kunt ook bepalen of een element inline, block of onzichtbaar is. Dat kun je met het `display`-property met CSS.
 
 ```css
 span {
@@ -20,9 +20,9 @@ a {
 ### OPDRACHT
 
 1. Maak gebruik van de meegeleverde `index.html`
-2. Je ziet op je scherm het volgende staan
+2. Je ziet op je scherm het volgende staan:
        ![start](images/start.png)
-3. Probeer eens het `<h1>` element onzichtbaar te maken met _CSS_. Check de bronnen
+3. Probeer eens het `<h1>`-element onzichtbaar te maken met _CSS_. Check de bronnen
 
 ### Eindresultaat
 

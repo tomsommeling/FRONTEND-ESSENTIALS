@@ -4,7 +4,7 @@
 
 ## taak05 - if-statement
 
-Als je uit een vliegtuig springt met een parachute dan heb je een keuze te maken: "Doe ik de parachute open of niet? Als ik dat niet doe dan val ik te pletter, doe ik het wel dan land ik veilig op de grond."
+Als je uit een vliegtuig springt met een parachute dan heb je een keuze te maken: "Doe ik de parachute open of niet? Als ik dat niet doe dan val ik te pletter. Doe ik het wel dan land ik veilig op de grond."
 
 ![Parachute](images/parachute.gif)
 
@@ -12,7 +12,7 @@ Je maakt een keuze en die heeft specifieke (soms definitieve) gevolgen.
 
 In het programmeren kun je dit ook tegenkomen. Die keuze worden conditionals genoemd. Anders gezegd: Voorwaardes. Er moet aan een specifieke voorwaarde voldaan worden om die specifieke uitkomst te krijgen.
 
-Een keuze zoals in het verhaal hierboven wordt als volgt in een zin omschreven, daarna wordt dezelfde zin in code.
+Een keuze zoals in het verhaal hierboven wordt als volgt in een zin omschreven, daarna wordt dezelfde zin in code:
 
 > Als ik de parachute open dan land ik veilig op de grond
 
@@ -26,13 +26,13 @@ En zo kun je dat in code schrijven
     }
 ```
 
-Je ziet een if-statement staan. En tussen de haakjes bij de if -statement staat een boolean. Want dat is op regel 22 gedeclareerd met `true`.
+Je ziet een if-statement staan. En tussen de haakjes bij de if -statement staat een boolean. Want die is op regel 22 gedeclareerd met `true`.
 
 Daarnaast zie je ook dat er accolades staan `{` en `}`. Dit geeft een code-blok aan. Een apart deel van de code.
 
 ![Code block](images/codeblok.png)
 
-Als de boolean variabele waar (true) is dan land je veilig.
+Als de boolean variabele waar (true) is, dan land je veilig.
 
 ```js
     let parachuteIsOpen = true; /* Hier is de parachute open */
@@ -42,7 +42,7 @@ Als de boolean variabele waar (true) is dan land je veilig.
     }
 ```
 
-Als de boolean variabele NIET waar (false) is dan stort je te pletter.
+Als de boolean variabele NIET waar (false) is, dan stort je te pletter.
 
 ```js
     let parachuteIsOpen = false; /* Hier is de parachute NIET open */
@@ -77,15 +77,15 @@ In bovenstaand voorbeeld zijn de getallen __gelijk aan elkaar__ en dus zegen we:
 
 ### Opmerking
 
-> - Je ziet twee = tekens staan: `==`
-> - Dit is geen type-fout.
+> - Je ziet twee =-tekens staan: `==`
+> - Dit is geen typefout.
 > - Dit noemen we een __vergelijkingsoperator__: je vergelijkt twee waardes
-> - 1 = teken gebruik je bij het 'vullen' van een variabele (waarde toekennen)
-> - 2 == gebruik je bij een vergelijking: de linkerkant vergelijk je met de rechterkant
+> - 1 =-teken gebruik je bij het 'vullen' van een variabele (waarde toekennen)
+> - 2 ==-tekens gebruik je bij een vergelijking: de linkerkant vergelijk je met de rechterkant
 
 ### Opdracht
 
-1. Maak een index.html met de gebruikelijke tags en daarbij ook een script tag. (je kunt de index.html van taak01 nemen ;)
+1. Maak een index.html met de gebruikelijke tags en daarbij ook een scripttag. (je kunt de index.html van taak01 nemen ;)
 2. Maak de volgende variabelen
    - mijnLeeftijd
    - stemGerechtigeleeftijd = 18;

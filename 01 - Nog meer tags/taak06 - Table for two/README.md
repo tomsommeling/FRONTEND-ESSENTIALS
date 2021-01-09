@@ -45,7 +45,7 @@ Bestudeer het bovenstaande goed.
 
 ### OPDRACHT
 
-1. Maak een index.html bestand in deze map
+1. Maak een index.html-bestand in deze map
 2. Codeer de standaard tags op elke pagina (weet je ze even niet kijk dan bij FRONTEND-BASIC => 03-Basis HTML => taak 02)
 3. Maak een tabel met jouw gegevens
 4. Met bovenin dikgedrukt: Voornaam, Leeftijd, Aantal broers/zussen, lievelingseten, idool, sport, en favoriete game

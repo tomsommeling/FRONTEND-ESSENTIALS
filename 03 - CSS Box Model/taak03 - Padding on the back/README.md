@@ -35,7 +35,7 @@ Als je nu de volgende CSS code toepast:
     }
 ```
 
-Dan zie je iets veranderd. Zoek het verschil:
+Dan zie je dat er iets verandert. Zoek het verschil:
 
 ![padding-left](images/padding-left.png)
 
@@ -58,7 +58,7 @@ En net als bij margin kun je `top`, `right`, `bottom`, `left` gebruiken
 ### Opdracht
 
 1. Maak gebruik van `index.html`
-2. Maak gebruik van de CSS properties `padding-top`, `padding-right`, `padding-bottom` en/of `padding-left` om tot het eindresultaat te komen
+2. Maak gebruik van de CSS-properties `padding-top`, `padding-right`, `padding-bottom` en/of `padding-left` om tot het eindresultaat te komen
 3. Wees zo kritisch mogelijk naar jezelf.
 
 ### Eindresultaat
@@ -67,4 +67,4 @@ En net als bij margin kun je `top`, `right`, `bottom`, `left` gebruiken
 
 ### OPMERKING
 
-Het lijkt wel dat je met padding kunt positioneren. Maar daarvoor wordt het niet gebruikt. Het gaat om `RUIMTE` maken.
+Het lijkt erop of je met padding kunt positioneren, maar daarvoor wordt het niet gebruikt. Het gaat om `RUIMTE` maken.

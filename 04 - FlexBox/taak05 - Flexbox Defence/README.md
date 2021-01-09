@@ -6,7 +6,7 @@
 
 ### Introductie
 
-Ok. Dan kun je nu gaan gamen. Flexbox Defence helpt je de concepten nog beter te begrijpen. Probeer alle 12 puzzels!
+Oké. Dan kun je nu gaan gamen. Flexbox Defence helpt je de concepten nog beter te begrijpen. Probeer alle 12 puzzels!
 
 ### Opdracht
 

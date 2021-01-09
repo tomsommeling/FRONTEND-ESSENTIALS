@@ -6,7 +6,7 @@
 
 ### Introductie
 
-Weet je nog dat alle HTML elementen (tags) uit blokken bestaan. In deze taak leer je dat je de ruimte tussen die blokken, die __tags__ kunt aanpassen, kunt beïnvloeden.
+Weet je nog dat alle HTML-elementen (tags) uit blokken bestaan. In deze taak leer je dat je de ruimte tussen die blokken, die __tags__ kunt aanpassen, kunt beïnvloeden.
 
 Je kunt de ruimte tussen twee HTML-elementen op de volgende manier aanpassen:
 
@@ -63,7 +63,7 @@ Overal is ruimte ontstaan.
 
 1. Maak gebruik van index.html
 2. Gebruik alleen `margin-top`,  `margin-right`, `margin-bottom` en `margin-left`
-3. Probeer eens onderstaand eindresultaat te coderen met alleen de bij `2.`  genoemde css properties.
+3. Probeer eens onderstaand eindresultaat te coderen met alleen de bij `2.`  genoemde css-properties.
 
 ### Eindresultaat
 

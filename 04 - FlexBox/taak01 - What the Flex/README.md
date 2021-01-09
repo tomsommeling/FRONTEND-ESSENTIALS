@@ -6,7 +6,7 @@
 
 ### Introductie
 
-Flexbox is een layout module binnen CSS. Een developer kan er dus layout mee instellen. Je hebt inmiddels geleerd dat een element in een ander element kan zitten. Dit noemen we parent-child verhouding. Soms kun dit ook noemen als container-items verhouding:
+Flexbox is een layoutmodule binnen CSS. Een developer kan er dus layout mee instellen. Je hebt inmiddels geleerd dat een element in een ander element kan zitten. Dit noemen we parentchild-verhouding. Soms kun dit ook noemen als container-items verhouding:
 
 ```html
     <div class="container">
@@ -15,19 +15,19 @@ Flexbox is een layout module binnen CSS. Een developer kan er dus layout mee ins
     </div>
 ```
 
-De div met de class=`container`  is de parent van beide div met class=`items` , die childs (of items) worden genoemd.
+De div met de class=`container` is de parent van beide div's met class=`items`, die childs (of items) worden genoemd.
 
-> Kortom: een container bevat items.
+> Kortom: deze container bevat items.
 
 Denk aan een vershoudbakje in de keuken. Daar kun je rozijnen, suiker, brood of andere producten in bewaren. Het bakje is de container, de producten zijn de items.
 
 ![verhoudbakje](images/vershoudbakjes.jpg)
 
-Maar wat heeft dat met Flexbox te maken? Goeie vraag. De Flexbox-layout geeft de container de mogelijkheid om de items te beinvloeden, op zo'n manier dat de ruimte waarin de items zich bevinden goed benut worden.
+Maar wat heeft dat met Flexbox te maken? Goeie vraag. De Flexbox-layout geeft de container de mogelijkheid om de items op zo'n manier te beïnvloeden dat de ruimte waarin de items zich bevinden goed benut wordt.
 
 Ja maar hoe werkt dat dan? Weer een goeie vraag!
 
-Ok stel dat je volgende HTMl-code hebt: (zie index.html). En je hebt deze gestyled (zie nog steeds index.html)
+Oké, stel dat je volgende HTMl-code hebt: (zie index.html). En je hebt deze gestyled (zie nog steeds index.html)
 
 ```html
     <div class="container">
@@ -40,9 +40,9 @@ Ok stel dat je volgende HTMl-code hebt: (zie index.html). En je hebt deze gestyl
     </div>
 ```
 
-De items (de divs) komen onder elkaar te staan, nemen de gehele breedte van je browser venster in beslag.
+De items (de divs) komen onder elkaar te staan, nemen de gehele breedte van je browservenster in beslag.
 
-Nu kun je deze blokken (items dus) beinvloeden door de container aan te passen:
+Nu kun je deze blokken (items dus) beïnvloeden door de container aan te passen:
 
 ```css
     .container{

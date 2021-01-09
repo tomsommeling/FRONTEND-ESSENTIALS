@@ -11,7 +11,7 @@ Omdat browser en zoekmachines graag willen weten met welke onderdelen ze te make
 
 ### OPDRACHT
 
-1. Maak een index.html bestand in deze map
+1. Maak een bestand index.html in deze map
 2. Maak een artikel01.html pagina
 3. Maak een artikel02.html pagina
 4. Maak een artikel03.html pagina

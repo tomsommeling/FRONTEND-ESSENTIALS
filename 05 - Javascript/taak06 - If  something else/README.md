@@ -4,7 +4,7 @@
 
 ## taak06 - if something else
 
-We gaan verder met de if-statement. Een if-statement heeft een voorwaarde. Als die voorwaarde TRUE is dan wordt het blokje code uitgevoerd. Als het FALSE is dan wordt de code niet uitgevoerd. Dat is de regel.
+We gaan verder met if-statements. Een if-statement heeft een voorwaarde. Als die voorwaarde TRUE is dan wordt het blokje code uitgevoerd. Als het FALSE is dan wordt de code niet uitgevoerd. Dat is de regel.
 
 Wat krijg je met onderstaande code in de console te zien?
 
@@ -15,17 +15,17 @@ Wat krijg je met onderstaande code in de console te zien?
     if(x == y){
         console.log("De twee getallen zijn gelijk.");
     }
-    console.log("Welke taak is het moeilijkst?");
+    console.log("Gras is groen en sneeuw is wit");
 ```
 
 Antwoord:
 
 > - De twee getallen zijn gelijk.
-> - Welke taak is het moeilijkst?
+> - Gras is groen en sneeuw is wit
 
 Uitleg:
 
-> - De if-statement bevat een TRUE voorwaarde en dus wordt de code binnen dat code-blokje uitgevoerd.
+> - De if-statement bevat een TRUE-voorwaarde en dus wordt de code binnen dat code-blokje uitgevoerd.
 > - Maar de code NA de if-statement wordt ALTIJD uitgevoerd.
 
 ```js
@@ -35,14 +35,14 @@ Uitleg:
     if(x == y){
         console.log("De twee getallen zijn gelijk.");
     }
-    console.log("Welke taak is het moeilijkst?");
+    console.log("Gras is groen en sneeuw is wit");
 ```
 
 Wat krijg je met onderstaande code in de console te zien?
 
 Antwoord:
 
-> - Welke taak is het moeilijkst?
+> - Gras is groen en sneeuw is wit
 
 Uitleg:
 
@@ -62,20 +62,20 @@ Ok. Leuk allemaal. Maar stel nou dat je de volgende zin zou moeten omzetten in c
         console.log("Ik moet helaas even wachten");
     }
     else{
-        console.log("Haha, Ik rijd lekker door");
+        console.log("Haha, ik rijd lekker door");
     }
 ```
 
 Je ziet hier een `if-else statement`.
 
-> - Als de if-statement gelijk is aan __true__ dan wordt net als bij taak05 de code in het if-code-blok uitgevoerd.
-> - Als de if-statement een __false__ voorwaarde heeft dan wordt het codedeel in de `else` uitgevoerd.
+> - Als de if-statement gelijk is aan __true__, dan wordt net als bij taak05 de code in het if-code-blok uitgevoerd.
+> - Als de if-statement een __false__ voorwaarde heeft, dan wordt het codedeel in de `else` uitgevoerd.
 
 Dit werkt dus net even anders dan bij alleen een if-statement
 
 ### Opdracht
 
-1. Maak een index.html met de gebruikelijke tags en daarbij ook een script tag. (je kunt de index.html van taak01 nemen ;)
+1. Maak een index.html met de gebruikelijke tags en daarbij ook een scripttag. (je kunt de index.html van taak01 nemen ;)
 2. Maak de volgende variabele
    - stopLichtKleur = "rood";
 3. Maak een if-else statement die de waarde van stopLichtKleur vergelijkt met "rood";

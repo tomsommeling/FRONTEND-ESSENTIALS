@@ -6,9 +6,9 @@
 
 ### Introductie
 
-Bij de opdracht over `padding` heb je al een afbeelding voorbij zien komen met een `border`. Daar gaat deze oefening over. Je kunt om elk HTML-element een randje coderen. Een doorgetrokken lijntje of een stippellijntje, zwart, rood wat jij wilt.
+Bij de opdracht over `padding` heb je al een afbeelding voorbij zien komen met een `border`. Daar gaat deze oefening over. Je kunt om elk HTML-element een randje coderen. Een doorgetrokken lijntje of een stippellijntje, zwart of rood: wat jij wilt.
 
-De CSS code daarvoor is als volgt:
+De CSS-code daarvoor is als volgt:
 
 ```css
 

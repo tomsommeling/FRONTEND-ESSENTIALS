@@ -6,9 +6,9 @@
 
 ### Introductie
 
-Ok. Met Flexbox kun je een parent-div (container) een `display:flex` geven en dan veranderen de items. Die worden flexibel...
+Oké. Met Flexbox kun je een parent-div (container) een `display:flex` geven en dan verandert de positie van de items. Die wordt flexibel...
 
-Met Flexbox kunnen we de `hoofd-as` (main-axis) veranderen. Als we alleen de container `flex` maken dan is de hoofas zo:
+Met Flexbox kunnen we de `hoofd-as` (main-axis) veranderen. Als we alleen de container `flex` maken, dan is de hoofas zo:
 
 ![Main axis](images/main-axis.png)
 

@@ -14,6 +14,7 @@ Met de `<ol>`-tag maak je een orderd list. In het Nederlands betekent dat geOrde
 2. Feyenoord
 3. PSV
 4. AZ
+5. Fc Twente
 
 Dit is een lijst met `nummers`. Elke item staat achter een bepaald nummer. Dat is een geOrdende Lijst. En die maak je dus met de tags: `<ol>` en `</ol>`
 Maar we zijn er nog niet helemaal, want ieder item in de lijst staat ook weer tussen tags, en als je hebt opgelet, _nested tags_.
