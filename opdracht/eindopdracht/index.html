@@ -1,12 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>frontend essentials</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-<body>
-    
-  
-</body>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Eind opdracht</label>
+      <ul>
+ 
+        <li><a href="../Vlaggen/1-polen/index.html">Polen</a></li>
+        <li><a href="../Vlaggen/2-nederland/index.html">Nederland</a></li>
+        <li><a href="../Vlaggen/3-frankrijk/index.html">Frankrijk</a></li>
+        <li><a href="../Vlaggen/4-colombia/index.html">Colombia</a></li>
+        <li><a href="../Vlaggen/5-botswana/index.html">Botswana</a></li>
+        <li><a href="../Vlaggen/6-benin/index.html">Benin</a></li>
+        <li><a href="../Vlaggen/7-Chile/index.html">Chile</a></li>
+        <li><a href="../Vlaggen/9-noorwegen/index.html">Noorwegen</a></li>
+      </ul>
+    </nav>
+   
+ 
+        
+ 
+<table>
+  <tr>
+    <th>
+      <h1><div class="persoonsGegevens"></div></h1>
+      <br>
+    </th>
+    <th>
+      <div class="leeftijd"></div>
+      <br>
+    </th>
+    <th>
+      <div class="Email"></div>
+      <br>
+    </th>
+    <th>
+      <div class="Woonplaats"></div>
+      <br>
+    </th>
+  </tr>
+ 
+</table>
+ 
+    <script>
+        
+        let persoon = {
+            voornaam : prompt("Wat is uw naam?"),
+            achternaam : prompt("Wat is uw achternaam?"),
+            leeftijd : prompt("Wat is uw leeftijd?"),
+            email : prompt("wat is uw email?"),
+            woonplaats : prompt("wat is uw woonplaats"),
+        };
+ 
+        console.log(persoon);
+        let div = document.querySelector('.persoonsGegevens');
+        div.innerHTML = persoon.voornaam+" "+ persoon.achternaam;
+ 
+        let leeftijd = document.querySelector('.leeftijd');
+        leeftijd.innerHTML = persoon.leeftijd;
+ 
+        let email = document.querySelector('.Email');
+        email.innerHTML = persoon.email;
+ 
+        let woonplaats = document.querySelector('.Woonplaats');
+        woonplaats.innerHTML = persoon.woonplaats;
+ 
+        if(persoon.leeftijd==16){ document.body.style.backgroundColor="orange"};
+        if(persoon.leeftijd==17){ document.body.style.backgroundColor="blue"};
+        if(persoon.leeftijd==18){ document.body.style.backgroundColor="gold"};
+        if(persoon.leeftijd==19){ document.body.style.backgroundColor="green"};
+        if(persoon.leeftijd==""){ document.body.style.backgroundColor="black"};
+ 
+    </script>
+  </body>
 </html>
