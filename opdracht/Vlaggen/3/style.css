@@ -1,6 +1,7 @@
 /* Hier hoef je niks mee te doen */
 *{
     font-size:0;
+    display: inline-block;
 }
 
 #container{
@@ -13,14 +14,20 @@
 /* Hieronder kun je gaan editen */
 
 #bovenkant{
-    width: 800px;
-    height: 250px;
+    width: 275px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+}
+
+#midden{
+    width: 250px;
+    height: 500px;
     background-color: rgb(255, 255, 255);
 }
 
 #onderkant{
-    width: 800px;
-    height: 250px;
-    background-color: rgb(255, 0, 0);
+    width: 275px;
+    height: 500px;
+    background-color: blue;
 }
 

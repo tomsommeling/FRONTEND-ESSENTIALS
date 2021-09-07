@@ -1,0 +1,43 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#blauw1{
+    width: 800px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+#wit1{
+    width: 800px;
+    height: 20px;
+    background-color: white;
+}
+
+#zwart{
+    width: 800px;
+    height: 60px;
+    background-color: black;
+}
+
+#wit2{
+    width: 800px;
+    height: 20px;
+    background-color: white;
+}
+
+#blauw2{
+    width: 800px;
+    height: 200px;
+    background-color: lightblue;
+}
